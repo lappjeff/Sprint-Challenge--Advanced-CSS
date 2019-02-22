@@ -359,6 +359,9 @@ footer {
   margin: 10px 0;
   color: black;
 }
+.home .subscribe div form input {
+  border: 1.5px solid black;
+}
 .home .subscribe .submit-btn {
   background-color: black;
   color: white;
