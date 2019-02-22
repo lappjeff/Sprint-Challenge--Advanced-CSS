@@ -64,7 +64,7 @@
   .walk {
     margin-top: 60px;
     border-top: 1px solid @main-border-color;
-    padding: 50px 60px;
+    padding: 50px 60px 25px 60px;
     display: flex;
     justify-content: center;
 
@@ -115,5 +115,42 @@
 
       }
     }
-  }
+  }//walk
+
+    .subscribe {
+        max-width: 100%;
+        .flex-col();
+        align-items: center;
+        border-top: 2px solid black;
+        padding-top: 20px;
+            h3 {
+                text-align: center;
+    
+        }
+        div {
+            max-width: 65%;
+            width: 100%;
+            .flex-col();
+            form {
+                text-align: center;
+                margin-bottom: 15px;
+                p {
+                    margin: 10px 0;
+                    color: black;
+                }
+
+            }//form
+        }//div
+
+        .submit-btn {
+            .signup-btn(black, white);
+            display: block;
+            margin: 0 auto;
+            margin-top: 15px;
+        }
+
+        .inline {
+            display: inline-block;
+        }
+    }//subscribe
 }// home

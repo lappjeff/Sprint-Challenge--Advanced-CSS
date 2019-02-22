@@ -183,7 +183,7 @@ p {
   right: 0;
   left: 0;
   margin: 0 auto 20px auto;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 .nav-container h1 {
   font-size: 3rem;
@@ -194,6 +194,9 @@ p {
   text-decoration: none;
   color: black;
   margin: 20px 7px 10px 7px;
+  color: #FDBB6A;
+}
+.nav-container a:hover {
   color: white;
 }
 footer {
@@ -267,7 +270,7 @@ footer {
 .home .walk {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
-  padding: 50px 60px;
+  padding: 50px 60px 25px 60px;
   display: flex;
   justify-content: center;
 }
@@ -301,6 +304,7 @@ footer {
   text-align: center;
   border-radius: 5px;
   font-size: 1.5rem;
+  border: 2px solid black;
 }
 .home .walk .walk-text .btn:hover {
   background-color: white;
@@ -329,4 +333,50 @@ footer {
   width: 100%;
   height: auto;
   border-radius: 10px;
+}
+.home .subscribe {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid black;
+  padding-top: 20px;
+}
+.home .subscribe h3 {
+  text-align: center;
+}
+.home .subscribe div {
+  max-width: 65%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.home .subscribe div form {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.home .subscribe div form p {
+  margin: 10px 0;
+  color: black;
+}
+.home .subscribe .submit-btn {
+  background-color: black;
+  color: white;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  border: 2px solid black;
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.home .subscribe .submit-btn:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.home .subscribe .inline {
+  display: inline-block;
 }
